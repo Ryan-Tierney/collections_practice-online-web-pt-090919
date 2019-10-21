@@ -41,8 +41,8 @@ def sum_array(array)
 end 
 
 def add_s(array)
- array.collect do |element, index|
-  if index == [2]
+ array.collect do |element|
+  if element == [1]
     element
   else
     element + "s"
