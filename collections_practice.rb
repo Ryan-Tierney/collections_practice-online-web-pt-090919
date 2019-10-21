@@ -42,7 +42,7 @@ end
 
 def add_s(array)
 [1, 2, 3].each_with_index.collect do |element, index|
-  
+  if element 
   end 
 end 
 end
